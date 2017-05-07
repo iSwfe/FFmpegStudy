@@ -49,9 +49,9 @@ ffmpeg -i input2.mp4 -f mpeg output2.mp4
 ##### ②使用FFmpeg提供的concat分离器直接操作。
 * 先创建一个文本文档filelist.txt
 ```
-file "file1.mkv"
-file "file2.mkv"
-file "file3.mkv"
+file 'file1.mkv'
+file 'file2.mkv'
+file 'file3.mkv'
 ```
 * 再执行concat分离器命令
 
