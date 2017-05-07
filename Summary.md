@@ -4,7 +4,7 @@
 语法格式：
 ffmpeg 
 	[输入选项]	eg. -ss 00:01:00 -t 00:00:30
-	[输入文件]	eg.	-i input.mp4
+	[输入文件]	eg. -i input.mp4
 	[输出选项]	eg. -vcodec h264 -acodec aac
 	[输出文件]	eg. output.mp4
 ```
